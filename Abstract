@@ -1,0 +1,17 @@
+The report entirely focuses on the website, which is designed to store the details of
+the Blast Furnace Process control log sheet which consists of different fields which
+are required to be filled and those can be created, read, update and delete.
+The creation of the log sheet is simple just by clicking create button where it creates a
+form where the fields which are mandatory are to be filled and then the form is
+created and stored in the database. Each form uniqueness is determined by the date,
+shift and the BF field.
+With the amount of time saved, the efficiency and productivity of the employees,
+thereby, of the organization increases. The immediate display view of the created
+form log sheet will contribute to all the positive changes. The main advantage of this
+website is before this website was created the log sheet book was stored in a room
+where if a person needs it they have to go take the book and if someone else already
+has taken the book then he have to wait until he return whereas with the help of this
+website created using PHP we can directly access the data through internet which is
+very time saving. Here PHP is used as a middle end to retrieve the values entered and
+to access the database and makes changes in it.
+Abstract words - PHIP (Hypertext preprocessor)
