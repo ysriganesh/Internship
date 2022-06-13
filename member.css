@@ -1,0 +1,56 @@
+body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-image: url(Steelplant.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: contain;
+}
+
+
+
+h1 {
+    text-align:center;
+    color:black;
+    -webkit-text-stroke: 1px black;
+}
+
+h2
+{
+    text-align:center;
+    color:black;
+    -webkit-text-stroke: 1px black;
+
+}
+h3
+{
+    text-align:center;
+    color:black;
+    -webkit-text-stroke: 1px black;
+
+}
+
+body
+{
+    color: green;
+    font-size:26px;
+    -webkit-text-stroke: 1px black;
+}
+
+
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 15px;
+    height: 20px;
+}
+

@@ -1,0 +1,23 @@
+h1
+{
+    color: blue;
+    text-align: center;
+}
+h2
+{
+    color: red;
+    text-align: center;
+}
+table, tr, th, td{
+    border:2px solid black;
+    border-collapse: collapse;
+    width: 400px;
+    height: 100%;
+    background-color: green;
+}
+.pass_link
+{
+    color: red;
+    text-size-adjust: 15px;
+}
+

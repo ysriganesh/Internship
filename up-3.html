@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="up-1.css">
+    </head>
+    <body>
+        <h1>Rashtriya Ispat Nigam Limited</h1>
+        <h1>Vizag Steel Plant</h1>
+        <h2>BF-3 Control System Log Sheet</h2><br><br>
+        <form action= "ma3.php" method="post">
+        <center><table>
+            <tr>
+                <th>Date</th>
+                <th><input type="text" name="date" size="20"></th>
+            </tr>
+            <tr>
+            <th><label for="shift">Shift:</label></th>
+            <th>
+                <select name="shift">
+                    <option value="shift">Select-shift</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                </select>
+            </th><br>
+        </tr>
+        <tr>
+            <th><label for="BF">BF</label></th>
+            <th>
+                
+                    <select name="BF">
+                        <option value="BF">Select-BF</option>
+                        <option value="BF-1">BF-1</option>
+                        <option value="BF-2">BF-2</option>
+                        <option value="BF-3">BF-3</option>
+                    </select>
+            </th>
+        </tr>
+        <tr>
+            <th><label for="ExectiveName">ExectiveName</label></th>
+            <th>
+                <select name="ExectiveName">
+                    <option value="ExectiveName">ExectiveName</option>
+                    <option value="John">John</option>
+                    <option value="Rishit">Rishit</option>
+                    <option value="Ganesh">Ganesh</option>
+                </select>
+            </th>
+        </tr>
+        </table></center>
+        <br>
+        <center style="color: Red;"><h2>BF STATUS</h2></center>
+        <center style="color: blue;"><h3>HARDWARE</h3></center><br><br>
+        <center><table>
+            <table>
+            <tr>
+                <th><label for="AppServer1">AppServer1</label></th>
+                <th>
+                    <select name="AppServer1">
+                        <option value="Status">Status</option>
+                        <option value="OK">OK</option>
+                        <option value="NOT OK">NOT OK</option>
+
+                    </select>
+                    
+                </th>
+            </tr>
+            <tr>
+                <th><label for="AppServer2">AppServer2</label></th>
+                <th>
+                    <select name="AppServer2">
+                        <option value="Status">Status</option>
+                        <option value="OK">OK</option>
+                        <option value="NOT OK">NOT OK</option>
+
+                    </select>
+                    
+                </th>
+            </tr>
+            <tr>
+                <th><label for="DBServer1">DBServer1</label></th>
+                <th>
+                    <select name="DBServer1">
+                        <option value="Status">Status</option>
+                        <option value="OK">OK</option>
+                        <option value="NOT OK">NOT OK</option>
+
+                    </select>
+                    
+                </th>
+            </tr>
+            <tr>
+                <th><label for="DBServer2">DBServer2</label></th>
+                <th>
+                    <select name="DBServer2">
+                        <option value="Status">Status</option>
+                        <option value="OK">OK</option>
+                        <option value="NOT OK">NOT OK</option>
+
+                    </select>
+                    
+                </th>
+            </tr>
+            <tr>
+                <th><label for="DCServer1">DCServer1</label></th>
+                <th>
+                    <select name="DCServer1">
+                        <option value="Status">Status</option>
+                        <option value="OK">OK</option>
+                        <option value="NOT OK">NOT OK</option>
+
+                    </select>
+                    
+                </th>
+            </tr>
+            <tr>
+                <th><label for="DCServer2">DCServer2</label></th>
+                <th>
+                    <select name="DCServer2">
+                        <option value="Status">Status</option>
+                        <option value="OK">OK</option>
+                        <option value="NOT OK">NOT OK</option>
+
+                    </select>
+                    
+                </th>
+            </tr>
+            <tr>
+                <th><label for="DAEPC">DAEPC</label></th>
+                <th>
+                    <select name="DAEPC">
+                        <option value="Status">Status</option>
+                        <option value="OK">OK</option>
+                        <option value="NOT OK">NOT OK</option>
+
+                    </select>
+                    
+                </th>
+            </tr>
+            <tr>
+                <th><label for="LABPC">LABPC</label></th>
+                <th>
+                    <select name="LABPC">
+                        <option value="Status">Status</option>
+                        <option value="OK">OK</option>
+                        <option value="NOT OK">NOT OK</option>
+
+                    </select>
+                    
+                </th>
+            </tr>
+            <tr>
+        </table></center><br><br>
+        <center><table>
+            
+                
+                    <tr>
+                        <th><label for="AppStorage">AppStorage</label></th>
+                        <th>
+                            <select name="AppStorage">
+                                <option value="Status">Status</option>
+                                <option value="OK">OK</option>
+                                <option value="NOT OK">NOT OK</option>
+        
+                            </select>
+                            
+                        </th>
+                    </tr>
+                    <tr>
+                        <th><label for="DCStorage">DCStorage</label></th>
+                        <th>
+                            <select name="DCStorage">
+                                <option value="Status">Status</option>
+                                <option value="OK">OK</option>
+                                <option value="NOT OK">NOT OK</option>
+        
+                            </select>
+                            
+                        </th>
+                    </tr>
+                    <tr>
+                        <th><label for="FireWall">FireWall</label></th>
+                        <th>
+                            <select name="FireWall">
+                                <option value="Status">Status</option>
+                                <option value="OK">OK</option>
+                                <option value="NOT OK">NOT OK</option>
+        
+                            </select>
+                            
+                        </th>
+                    </tr>
+                    <tr>
+                        <th><label for="NWSwitch">NWSwitch</label></th>
+                        <th>
+                            <select name="NWSwitch">
+                                <option value="Status">Status</option>
+                                <option value="OK">OK</option>
+                                <option value="NOT OK">NOT OK</option>
+        
+                            </select>
+                            
+                        </th>
+                    </tr>
+                    <tr>
+                        <th><label for="L2HMIPC">L2HMIPC</label></th>
+                        <th>
+                            <select name="L2HMIPC">
+                                <option value="Status">Status</option>
+                                <option value="OK">OK</option>
+                                <option value="NOT OK">NOT OK</option>
+        
+                            </select>
+                            
+                        </th>
+                    </tr>
+                    <tr>
+                        <th><label for="BHSIPC">BHSIPC</label></th>
+                        <th>
+                            <select name="BHSIPC">
+                                <option value="Status">Status</option>
+                                <option value="OK">OK</option>
+                                <option value="NOT OK">NOT OK</option>
+        
+                            </select>
+                            
+                        </th>
+                    </tr>
+                    <tr>
+                        <th><label for="CRL2PC">CRL2PC</label></th>
+                        <th>
+                            <select name ="CRL2PC">
+                                <option value="Status">Status</option>
+                                <option value="OK">OK</option>
+                                <option value="NOT OK">NOT OK</option>
+        
+                            </select>
+                            
+                        </th>
+                    </tr>
+                    <tr>
+                        <th><label for="REMOTEPC">REMOTEPC</label></th>
+                        <th>
+                            <select name ="REMOTEPC">
+                                <option value="Status">Status</option>
+                                <option value="OK">OK</option>
+                                <option value="NOT OK">NOT OK</option>
+        
+                            </select>
+                            
+                        </th>
+                    </tr>
+                    
+        </table>
+    </center>
+    <center><h2 style="color: orange;">Application</h2></center>
+    <center><table>
+        <tr>
+            <th><label for="XML">XML</label></th>
+                        <th>
+                            <select name ="XML">
+                                <option value="Status">Status</option>
+                                <option value="OK">OK</option>
+                                <option value="NOT OK">NOT OK</option>
+        
+                            </select>
+                            
+                        </th>
+        </tr>
+        <tr>
+            <th><label for="MIMIC">MIMIC</label></th>
+                        <th>
+                            <select name ="MIMIC">
+                                <option value="Status">Status</option>
+                                <option value="OK">OK</option>
+                                <option value="NOT OK">NOT OK</option>
+        
+                            </select>
+                            
+                        </th>
+        </tr>
+        <tr>
+            <th><label for="L2HMI">L2 HMI</label></th>
+                        <th>
+                            <select name ="L2HMI">
+                                <option value="Status">Status</option>
+                                <option value="OK">OK</option>
+                                <option value="NOT OK">NOT OK</option>
+        
+                            </select>
+                            
+                        </th>
+        </tr>
+        <tr>
+            <th><label for="L1OPCLink">L1OPCLink</label></th>
+                        <th>
+                            <select name ="L1OPCLink">
+                                <option value="Status">Status</option>
+                                <option value="OK">OK</option>
+                                <option value="NOT OK">NOT OK</option>
+        
+                            </select>
+                            
+                        </th>
+        </tr>
+        <tr>
+            <th><label for="L2Service">L2Service</label></th>
+                        <th>
+                            <select name ="L2Service">
+                                <option value="Status">Status</option>
+                                <option value="OK">OK</option>
+                                <option value="NOT OK">NOT OK</option>
+        
+                            </select>
+                            
+                        </th>
+        </tr>
+        <tr>
+            <th><label for="L3ERPLink">L3ERPLink</label></th>
+                        <th>
+                            <select name ="L3ERPLink">
+                                <option value="Status">Status</option>
+                                <option value="OK">OK</option>
+                                <option value="NOT OK">NOT OK</option>
+        
+                            </select>
+                            
+                        </th>
+        </tr>
+        <tr>
+            <th><label for="BF1Portal">BF1Portal</label></th>
+                        <th>
+                            <select name ="BF1Portal">
+                                <option value="Status">Status</option>
+                                <option value="OK">OK</option>
+                                <option value="NOT OK">NOT OK</option>
+        
+                            </select>
+                            
+                        </th>
+        </tr>
+    </table></center>
+    <center><h2 style="color: green;">ENVIRONMENT</h2></center>
+    <center><table>
+        <tr>
+            <th>
+                <label for="Degrees">Degrees</label>
+            </th>
+            <th>
+                <label>Degrees</label>
+                <input type="text" name="Degrees" size="35">
+            </th>
+        </tr>
+        <tr>
+            <th><label for="ACStatus">ACStatus</label></th>
+            <th>
+                <select name ="ACStatus">
+                    <option value="Status">Status</option>
+                    <option value="OK">OK</option>
+                    <option value="NOT OK">NOT OK</option>
+
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <label for="UPSPOWERSUPPLYSTATUS">UPSPOWERSUPPLYSTATUS</label>
+            </th>
+            <th>
+                <select name ="UPSPOWERSUPPLYSTATUS">
+                    <option value="Status">Status</option>
+                    <option value="OK">OK</option>
+                    <option value="NOT OK">NOT OK</option>
+
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th><label for="BACKUPTAKEN">BACKUPTAKEN</label></th>
+            <th>
+                <select name ="BACKUPTAKEN">
+                    <option value="Status">Status</option>
+                    <option value="OK">OK</option>
+                    <option value="NOT OK">NOT OK</option>
+
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th><label for="SystemShutdown">SystemShutdown</label></th>
+            <th>
+                <select name ="SystemShutdown">
+                    <option value="Status">Status</option>
+                    <option value="OK">OK</option>
+                    <option value="NOT OK">NOT OK</option>
+
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th><label for="Systemdowntime">Systemdowntime</label></th>
+            <th>
+                <label>Hour</label>
+                <input type="text" name="Systemdowntime" size="30">
+                <br>
+                <br>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <label for="Remarks">Remarks</label>
+            </th>
+            <th>
+                <input type="text" name="Remarks" size="50">
+            </th>
+        </tr>
+
+    </table></center>
+    <br>
+    <br>
+    <br>
+    <br>
+   
+    <div class="pass_link">
+        <a href="Adminpage.html"><h3>Back to Main page</h3></a>
+        <br><br>
+        <center><input type="submit" name="submit" value="Submit"></center>
+    </form>
+    </body>
+</html>
+
