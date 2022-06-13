@@ -1,0 +1,55 @@
+Process control systems (PCS), sometimes called industrial control systems (ICS),
+function as pieces of equipment along the production line during manufacturing that
+test the process in a variety of ways, and return data for monitoring and
+troubleshooting. Many types of process control systems exist, including supervisory
+control and data acquisition (SCADA), programmable logic controllers (PLC), or
+distributed control systems (DCS), and they work to gather and transmit data
+obtained during the manufacturing process.
+The BF Process control system is the blast furnace control system. A great number of
+measurements can be taken on production lines. An equipment's sensor can pick up
+many measurements including pressure, flow rate, density, acidity, velocity, speed,
+stress, temperature, and weight.
+We have created a website for automatically storing the log sheet values of the BF
+process control system in the database using -
+1) Frontend (HTML, CSS, JavaScript)
+2) Middle end (PHP)
+3) Backend (Database-Oracle)
+HTML -
+The Hypertext Mark-up Language or HTML is the standard mark-up language for
+documents designed to be displayed in a web browser. It can be assisted by
+technologies such as Cascading Style Sheets (CSS) and scripting languages such as
+JavaScript. Web browsers receive HTML documents from a web server or from local
+storage and render the documents into multimedia web pages. HTML describes the
+structure of a web page semantically and originally included cues for the appearance
+of the document.
+CSS -
+Cascading Style Sheets (CSS) is a style sheet language used for describing the
+presentation of a document written in a mark-up language such as HTML.CSS is a
+cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+CSS is designed to enable the separation of presentation and content, including
+layout, colours, and fonts. This separation can improve content accessibility; provide
+more flexibility and control in the specification of presentation characteristics; enable
+multiple web pages to share formatting by specifying the relevant CSS in a separate
+.css file, which reduces complexity and repetition in the structural content; and enable
+the .css file to be cached to improve the page load speed between the pages that share
+the file and its formatting.
+JavaScript -
+JavaScript often abbreviated JS, is a programming language that is one of the core
+technologies of the World Wide Web, alongside HTML and CSS. Over 97% of
+websites use JavaScript on the client side for web page behaviour, often incorporating
+third-party libraries. All major web browsers have a dedicated JavaScript engine to
+execute the code on users devices.
+PHP -
+PHP is a general-purpose scripting language geared towards web development. It was
+originally created by Danish-Canadian programmer Rasmus Lerdorfin 1994. The
+PHP reference implementation is now produced by The PHP Group. PHP originally
+stood for Personal Home Page, but it now stands for the recursive initialise PHP:
+Hypertext Pre-processor. PHP code is usually processed on a web server by a PHP
+interpreter implemented as a module, a daemon or as a Common Gateway Interface
+(CGI) executable. On a web server, the result of the interpreted and executed PHP
+code - which may be any type of data, such as generated HTML or binary image data
+- would form the whole or part of an HTTP response. Various web template systems,
+web content management systems, and web frameworks exist which can be employed
+to orchestrate or facilitate the generation of that response. Additionally, PHP can b
+used for many programming tasks outside the web context, such as standalone
+graphical
